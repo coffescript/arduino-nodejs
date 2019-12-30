@@ -1,0 +1,31 @@
+{
+  "name": "firstled-node",
+  "version": "1.0.0",
+  "description": "first led with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "firmata": "firmata-party uno --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffescript/arduino-nodejs.git"
+  },
+  "keywords": [
+    "led",
+    "arduino",
+    "node",
+    "javascript",
+    "js"
+  ],
+  "author": "Fabricio Mejia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coffescript/arduino-nodejs/issues"
+  },
+  "homepage": "https://github.com/coffescript/arduino-nodejs#readme",
+  "dependencies": {
+    "firmata": "^2.0.1",
+    "firmata-party": "^2.0.0"
+  }
+}
